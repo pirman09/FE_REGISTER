@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #66d4ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.group label {
+    width: 100px;
+    font-weight: bold;
+}
+
+.group input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #66d4ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #00d9ff;
+    cursor: pointer;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
